@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM Array Methods</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        .container {
+            background: #fff;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+            width: 80%;
+            max-width: 800px;
+        }
+
+        aside {
+            padding: 20px;
+            background: #333;
+            color: #fff;
+            text-align: center;
+        }
+
+        aside button {
+            display: block;
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0;
+            border: none;
+            border-radius: 5px;
+            background: #444;
+            color: #fff;
+            cursor: pointer;
+            transition: background 0.3s ease;
+        }
+
+        aside button:hover {
+            background: #555;
+        }
+
+        main {
+            padding: 20px;
+        }
+
+        main h2 {
+            margin-top: 0;
+            text-align: left;
+            color: #333;
+        }
+
+        .person {
+            background: #f4f4f4;
+            margin: 10px 0;
+            padding: 10px;
+            border-left: 5px solid #333;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .person strong {
+            font-weight: bold;
+        }
+
+        .total {
+            width: 100%;
+
+
+            h3 {
+                display: flex;
+                justify-content: space-between;
+                padding-bottom: 7px;
+                border-bottom: 3px solid #333;
+            }
+
+
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <aside>
+            <button id="add-user">Add User 👱‍♂️</button>
+            <button id="double">Double Money 💰</button>
+            <button id="show-millionaires">Show Only Millionaires 💵</button>
+            <button id="sort">Sort by Richest ↓</button>
+            <button id="calculate-wealth">Calculate entire Wealth 🧮</button>
+        </aside>
+        <main id="main">
+            <h2><strong>Person</strong> Wealth</h2>
+
+        </main>
+    </div>
+    <script src="index.js"></script>
+</body>
+
+</html>
